@@ -1,5 +1,6 @@
 # check_SIGINT
-A c program that check accidental SIGINT command 
+programs that check accidental SIGINT command 
 
-Sometimes during lenghty running time an accidental SIGINT signal cause lots of data and time loss
-to prevent this you can add this code in your program a verification 
+There maybe a time when you have to copy a data from terminal but you forgot to press shift key
+while copying that causes an accidental SIGINT signal which cause lots of data and time loss
+to prevent this you can add these codes in your program as a verification 
